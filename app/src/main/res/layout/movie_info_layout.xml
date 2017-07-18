@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/app_padding"
+    android:layout_marginRight="@dimen/app_padding"
+    android:background="@drawable/ll_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_movie_thumbnail"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/app_padding">
+
+            <TextView
+                android:id="@+id/tv_md_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/textColor"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tv_md_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/textColor" />
+
+            <Button
+                android:id="@+id/btn_md_fav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mark_as_favourites"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/tv_md_overview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/app_padding"
+        android:layout_marginLeft="@dimen/app_padding"
+        android:layout_marginRight="@dimen/app_padding"
+        android:layout_marginTop="@dimen/app_padding"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/textColor" />
+
+</LinearLayout>

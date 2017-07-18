@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MovieNow</string>
+    <string name="label_movie_detail">Movie Detail</string>
+    <string name="transition_thumbnail_image">thumbnail</string>
+    <string name="no_internet">Please connect to internet</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="sort_dialog_title">Select Sort Option</string>
+    <string name="selected_movie_null">Problem with selected movie. Try again</string>
+    <string name="mark_as_favourites">Mark as favourites</string>
+    <string name="banner">banner</string>
+    <string name="desc_thumbnail">thumbnail</string>
+    <string name="empty_favourites">You haven\'t marked any movie as favourite</string>
+    <string name="remove_fav">Remove as favourite</string>
+    <string name="mark_fav">Mark as favorite</string>
+    <string name="toast_remove_fav">Removed as favourite</string>
+    <string name="toast_mark_fav">Marked as favorite</string>
+</resources>

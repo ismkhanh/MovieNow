@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/app_padding"
+    android:layout_marginLeft="@dimen/app_padding"
+    android:layout_marginRight="@dimen/app_padding"
+    android:background="@drawable/ll_background">
+
+    <View
+        android:id="@+id/horizontal_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/tv_trailer_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trailers"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/textColor"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="@dimen/app_padding"
+        android:layout_marginRight="@dimen/app_padding"/>
+
+    <TextView
+        android:id="@+id/tv_trailer_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/textColor"
+        android:layout_marginLeft="@dimen/app_padding"
+        android:layout_marginRight="@dimen/app_padding"/>
+</LinearLayout>
